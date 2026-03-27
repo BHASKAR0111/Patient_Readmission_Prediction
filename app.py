@@ -36,7 +36,7 @@ st.markdown("""
 @st.cache_resource(show_spinner=False)
 def load_and_train():
     # ✅ Fetches directly from your GitHub repo — no pickle, no Kaggle
-    DATA_URL = "https://raw.githubusercontent.com/BHASKAR0111/Patient_Readmission_Prediction/data.csv"
+    DATA_URL =  "https://raw.githubusercontent.com/BHASKAR0111/Patient_Readmission_Prediction/main/data.csv"
 
     df = pd.read_csv(DATA_URL)
     df.replace('?', np.nan, inplace=True)
