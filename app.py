@@ -287,7 +287,7 @@ with col2:
 # ── Footer ────────────────────────────────────────────────────
 st.divider()
 st.markdown(
-    "*Built by **Bhaskar Baluni** | MCA — Graphic Era Hill University | "
+    "*Built by **Bhaskar Baluni**  "
     "[GitHub](https://github.com/BHASKAR0111) | "
     "[Portfolio](https://bhaskar0111.github.io/Bhaskar-Portfolio/)*"
 )
